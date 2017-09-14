@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#71C671"
+    >
+    <TextView
+        android:id="@+id/mytbar_shouye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="20dp"
+        android:text="首页"
+        android:textSize="35sp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="天士力大健康智慧康养平台"
+        android:textSize="35sp"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/mytbar_fanhui"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="返回"
+        android:textSize="35sp"
+        android:paddingRight="20dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>

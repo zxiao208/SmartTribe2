@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#71C671"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="天士力大健康智慧康养平台"
+        android:textSize="35sp"
+        />
+</LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#000000"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:id="@+id/main_tianqi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/clicktianqi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_zhihuijiaju"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="@drawable/clickjiaqu"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_yiliao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/clickyiliao"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:id="@+id/main_jiankangzhongxin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/clickzhongxin"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_diancan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@drawable/clickdiancan"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+
+                >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_xiaoqu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/clickxiaoqu"
+                android:orientation="horizontal"></LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:background="#000000">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/main_wuye"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/clickwuye"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/main_hujiaozhongxin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/clickjiankang"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/main_sos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/clicksos"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
