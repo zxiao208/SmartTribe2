@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * Created by Administrator on 2017/9/14 0014.
@@ -15,6 +16,7 @@ import android.widget.Button;
 public class YiliaoInfoActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button btn_xinyun,btn_aiqiangua;
+    TextView tv_shouye,tv_fanhui;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +29,13 @@ public class YiliaoInfoActivity extends AppCompatActivity implements View.OnClic
         btn_aiqiangua = (Button) findViewById(R.id.yiliaoinfo_btn_aiqiangua);
         btn_xinyun.setOnClickListener(this);
         btn_aiqiangua.setOnClickListener(this);
+
+        tv_shouye = (TextView) findViewById(R.id.mytbar_shouye);
+        tv_fanhui = (TextView) findViewById(R.id.mytbar_fanhui);
+
+        tv_shouye.setOnClickListener(this);
+        tv_fanhui.setOnClickListener(this);
+
     }
 
 
@@ -48,7 +57,12 @@ public class YiliaoInfoActivity extends AppCompatActivity implements View.OnClic
                 startActivity(mIntent2);//启动
 
                 break;
-
+            case R.id.mytbar_fanhui:
+                finish();
+                break;
+            case R.id.mytbar_shouye:
+                finish();
+                break;
         }
     }
 }
